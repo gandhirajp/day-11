@@ -1,0 +1,392 @@
+//1.Fix the bugs in below snippet
+
+<html lang="en">
+
+<head>
+    <title>
+        Document guvi
+    </title>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+        <div>
+            Guvi Geek Network
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+// 2.Try the below one
+
+<html lang="en">
+
+<head>
+    <title>
+        Document guvi
+    </title>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+
+</body>
+
+</html>
+
+//3)Design a contact us form with all fields as required.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+           
+            margin-right: 550px;
+            margin-top: 80px;
+        }
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .table1{    
+            margin-left: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form class="form"> 
+      <label for="first name">FirstName</label>
+      <input type="first name" name="" id="first name" placeholder="FirstName"><br><br>
+
+      <label for="meddile name">MeddileName </label>
+      <input type="meddile name " name="" id="meddile name" placeholder="MiddleName"><br><br>
+
+      <label for="last namem ">LastName</label>
+      <input type="last name " name="" id="last name " placeholder="LastName"><br><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="" id="email" placeholder="Email"><br><br>
+
+      <label for="password">Password</label>
+      <input type="password" name="" id="password" placeholder="Password"><br><br>
+
+      <label for="phone number">PhoneNumber</label>
+      <input type="text" name="" id="number" placeholder="PhoneNumber" ><br><br>
+
+      <label for="Upload a picture"></label>
+      <input type="file" name="" id="file"><br>
+    
+       <button>sumbit</button>
+
+    </form>
+    <hr>
+    <br><br>
+</body>
+</html>
+
+// 4.Use certain HTML elements to display the following in a HTML page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Programming Language
+            <ul>
+               <li>javascript
+                   <ol id="lists" type="a">
+                       <li>Angular</li>
+                       <li> React</li>
+                        <li>Vue.js</li>
+                   </ol>
+               </li>
+               <li>python
+                <ol id="list" type="a">
+                    <li> Django Framework</li>
+                    <li> Flask Framework</li>
+                   
+                </ol>
+
+               </li>
+               <li>java
+                <ol id="list" type="a">
+                    <li> Spring</li>
+                    <li> Maven</li>
+                    <li>Hibernate</li>
+                   
+                </ol>
+               </li> 
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li> MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+               
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+// 5).Create an element that helps you to open the https://google.com in separate new tab.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com " target="blank">click</a>
+    
+</body>
+</html>
+
+// 6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <label for="salary">Salaried</label><br>
+    <input type="radio" name="salary" >
+    <br>
+
+    <label for="Businees">Businees</label><br>
+    <input type="radio" name="Businees" >
+    
+</form>    
+</body>
+</html>
+
+//7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name {
+            width: 350px;
+            height: 350px;
+            border: 1px solid black;
+            text-size-adjust: 10px;
+            
+        }
+
+        h3 {
+            background-color: red;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+
+        }
+
+        h5 {
+            width: 300px;
+            margin-top: 0px;
+        }
+
+        .three {
+            border-top: 2px solid black;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        p {
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+
+        div {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="name">
+        <h3>Yes! I want to subscribe to Mag-O-Zine</h3>
+        <p id="hi">
+            <span style=" border-top: 2px solid black;">FirstName</span> <span
+                style="border-top: 2px solid black;">LastName</span>
+
+        </p>
+        <div class="three"></div>
+        <h5 style="margin-top: 0px; margin-left: 15px;">Address</h5>
+
+        <p id="hi">
+            <span style=" border-top: 2px solid black;">City</span>
+            <span style="border-top: 2px solid black;">State</span>
+            <span style="border-top: 2px solid black;">Zip</span>
+
+        </p>
+        <div>
+            <p><b> Subscribe for:<input type="checkbox">1 year($19.95)<input type="checkbox">2 year($35.00)</b></p>
+            <p><b>Send me for more information about</b></p>
+        </div>
+        <h5> <input type="checkbox">Computer-Zine</h5>
+        <h5><input type="checkbox">Fishing-Zone</h5>
+        <h5><input type="checkbox">Cat-O-Zone</h5>
+
+
+
+    </div>
+</body>
+
+</html>
+
+// 8)Use the table tag to design given image 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .table1{    
+            margin-left: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <table class="table1">
+        <thead>
+            <tr>
+                <th>State of health</th>
+                <th colspan="2">Fasting value</th>
+                <th>After Remaining</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Minimum</th>
+                <th>Normal</th>
+                <th>2 hours eating </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less then 140</td>
+            </tr>
+            <tr>
+                <td>pre-dibiates</td>
+                <td>101</td>
+                <td>320</td>
+                <td>101 to 320</td>
+    
+            </tr>
+            <tr>
+                <td>dibetes</td>
+                <td>more then 130 </td>
+                <td>not appicabel</td>
+                <td>more then 120 </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+// 9)Write HTML input tags snippet to show default values for all Form elements.
+
+<!-- 1) creat a form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+           
+            margin-right: 550px;
+            margin-top: 80px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <form class="form"> 
+      <label for="first name">FirstName</label>
+      <input type="first name" name="" id="first name" placeholder="FirstName"><br><br>
+
+      <label for="meddile name">MeddileName </label>
+      <input type="meddile name " name="" id="meddile name" placeholder="MiddleName"><br><br>
+
+      <label for="last namem ">LastName</label>
+      <input type="last name " name="" id="last name " placeholder="LastName"><br><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="" id="email" placeholder="Email"><br><br>
+
+      <label for="password">Password</label>
+      <input type="password" name="" id="password" placeholder="Password"><br><br>
+
+      <label for="phone number">PhoneNumber</label>
+      <input type="text" name="" id="number" placeholder="PhoneNumber" ><br><br>
+
+    
+    </form>  
+</body>
+</html>
+
+
+
+
+
